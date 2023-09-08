@@ -1,0 +1,5 @@
+const day = document.querySelector('.day')
+const time = document.querySelector('.time')
+const date = new Date()
+day.append(date.getDay())
+time.append(date.getUTCMilliseconds())
