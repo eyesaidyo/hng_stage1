@@ -1,4 +1,18 @@
+body {
+  background-color: black;
+  color: #fff;
+  padding: 50px;
+}
 img {
   border-radius: 50%;
-  width: 400px;
+  width: 100px;
+}
+.top {
+  justify-content: flex-start;
+  display: flex;
+  gap: 20px;
+  margin-bottom: 50px;
+}
+li {
+  font-size: 2rem;
 }
